@@ -1,3 +1,14 @@
 1. 가상환경 설정
-2. pip install streamlit pandas          # openai
-3. streamlit run app.py
+2. conda install -c conda-forge ffmpeg libsndfile
+3. pip install streamlit pandas spleeter         # openai
+4. streamlit run app.py
+
+
+spleeter 사용법
+spleeter separate -p spleeter:2stems -o ouput Buzz.mp3
+
+spleeter는 같은 폴더 안에서 실행이 된다.
+
+모델은 12-layer U-Net을 사용
+loss는 masked input mixed spectrums하고 source target spectrums 간의 L1 loss를 사용
+학습은 Deezer internal datasets

@@ -1,0 +1,32 @@
+# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+# folder
+/input/*
+
+# test
+pages/2_📖_Docs.py
+pages/3 _📊_Chart.py
+pages/4_🎹_Test.py
+pages/test.py
+../사용법.txt
+# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode
