@@ -24,8 +24,8 @@
 /input/*
 
 # test
-pages/2_📖_Docs.py
-pages/3 _📊_Chart.py
+# pages/2_📖_Docs.py
+# pages/3 _📊_Chart.py
 pages/4_🎹_Test.py
 pages/test.py
 ../사용법.txt
